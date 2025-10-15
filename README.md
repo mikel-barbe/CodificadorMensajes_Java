@@ -1,9 +1,11 @@
 🧩 Codificador de Mensajes en Java
+
 Este proyecto implementa un sistema de codificación y decodificación de mensajes en Java.
 Permite leer un texto desde un archivo, aplicar un algoritmo de codificación personalizado y guardar tanto el mensaje codificado como el decodificado en archivos separados.
 Además, el usuario puede elegir y codificar cualquier archivo de texto que desee, no solo el que viene incluido en los recursos del proyecto.
 
 📂 Estructura del Proyecto
+
 Codificador_Mensajes_Java/
 │
 ├── .idea/                       # Archivos de configuración del IDE (IntelliJ)
