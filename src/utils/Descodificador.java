@@ -11,7 +11,7 @@ public class Descodificador {
 
         try {
             reader = new BufferedReader(new FileReader(file));
-            writer = new BufferedWriter(new FileWriter("C://Proyectos_GitHub//Codificador_Java//src//output//mensaje_descodificado.txt"));
+            writer = new BufferedWriter(new FileWriter("C://ProyectosGitHub//Codificador_Mensajes_Java//src//output//mensaje_descodificado.txt"));
             int lectorCodigo = 0;
             while((lectorCodigo = reader.read()) !=-1){
                 writer.write((char)(lectorCodigo/5));
@@ -23,8 +23,12 @@ public class Descodificador {
             throw new RuntimeException(e);
         }finally{
             try {
-                reader.close();
-                writer.close();
+                if (reader != null) {
+                    reader.close();
+                }
+                if (writer != null) {
+                    writer.close();
+                }
             } catch (IOException e) {
                 System.out.println("Error en el cerrado del archivo");
             }
