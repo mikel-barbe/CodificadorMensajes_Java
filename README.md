@@ -21,5 +21,6 @@ La clase Descodificador toma el mensaje codificado y lo transforma nuevamente a 
 El mensaje restaurado se guarda en output/mensaje_descodificado.txt.
 
 📜 Licencia
+
 Este proyecto se distribuye bajo la licencia MIT.
 Puedes usarlo, modificarlo y distribuirlo libremente citando la fuente.
